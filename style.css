@@ -9,6 +9,7 @@ body {
     display: inline-block;
     border: 2px solid rgb(0, 0, 0);
     padding: 40px;
+    background-color: rgb(245, 192, 143);
 }
 
 input {
@@ -25,5 +26,5 @@ button {
     height: 60px;
     margin: 10px;
     font-size: 18px;
-    background-color: antiquewhite;
+    background-color: rgb(252, 199, 130);
 }
