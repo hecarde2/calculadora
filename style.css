@@ -1,20 +1,28 @@
+h1{
+    color: aliceblue;
+    text-shadow: 5px 5px 10px rgb(34, 255, 237);
+}
 body {
     text-align: center;
     font-family: Arial;
+    background-color: black;
 }
 
 .calculadora {
     display: inline-block;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
     padding: 20px;
     background-color: rgb(26, 81, 201);
+    box-shadow:  10px 10px 20px rgb(6, 255, 243);
 }
 
 
 #pantalla {
     width: 300px;
     height: 80px;
-    border: 2px solid black;
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 20px;
     background-color: rgb(158, 240, 240);
 
     display: grid;
@@ -39,4 +47,5 @@ button {
     margin: 5px;
     font-size: 18px;
     background-color: rgb(168, 219, 248);
+    border-radius: 50px;
 }
