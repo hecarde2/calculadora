@@ -1,30 +1,42 @@
-
 body {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10px;
+    font-family: Arial;
 }
 
 .calculadora {
     display: inline-block;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 40px;
-    background-color: rgb(245, 192, 143);
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(26, 81, 201);
 }
 
-input {
+
+#pantalla {
     width: 300px;
     height: 80px;
-    margin-bottom: 50px;
-    font-size: 40px;
-    text-align: right;
-    background-color: rgb(253, 234, 195);
+    border: 2px solid black;
+    background-color: rgb(158, 240, 240);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
+
+
+#pantalla span {
+    border-right: 5px solid black;
+}
+
 
 button {
     width: 60px;
     height: 60px;
-    margin: 10px;
+    margin: 5px;
     font-size: 18px;
-    background-color: rgb(252, 199, 130);
+    background-color: rgb(168, 219, 248);
 }

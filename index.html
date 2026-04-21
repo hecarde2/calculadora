@@ -6,34 +6,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> <h1> CALCULADORA</h1></header>
-    <div class="calculadora">
-        <input type="text" id="pantalla" disabled>
 
-        <br>
+<h1>CALCULADORA</h1>
 
-        <button onclick="agregar('7')">7</button>
-        <button onclick="agregar('8')">8</button>
-        <button onclick="agregar('9')">9</button>
-        <button onclick="agregar('/')">/</button><br>
+<div class="calculadora">
 
-        <button onclick="agregar('4')">4</button>
-        <button onclick="agregar('5')">5</button>
-        <button onclick="agregar('6')">6</button>
-        <button onclick="agregar('*')">*</button><br>
-
-        <button onclick="agregar('1')">1</button>
-        <button onclick="agregar('2')">2</button>
-        <button onclick="agregar('3')">3</button>
-        <button onclick="agregar('-')">-</button><br>
-
-        <button onclick="agregar('0')">0</button>
-        <button onclick="limpiar()">C</button>
-        <button onclick="calcular()">=</button>
-        <button onclick="agregar('+')">+</button>
+    
+    <div id="pantalla">
+        <span id="p1"></span>
+        <span id="p2"></span>
+        <span id="p3"></span>
     </div>
 
-    <script src="script.js"></script>
+    <br>
+
+  
+    <button onclick="agregar('7')">7</button>
+    <button onclick="agregar('8')">8</button>
+    <button onclick="agregar('9')">9</button>
+    <button onclick="agregar('/')">/</button><br>
+
+    <button onclick="agregar('4')">4</button>
+    <button onclick="agregar('5')">5</button>
+    <button onclick="agregar('6')">6</button>
+    <button onclick="agregar('*')">*</button><br>
+
+    <button onclick="agregar('1')">1</button>
+    <button onclick="agregar('2')">2</button>
+    <button onclick="agregar('3')">3</button>
+    <button onclick="agregar('-')">-</button><br>
+
+    <button onclick="agregar('0')">0</button>
+    <button onclick="limpiar()">C</button>
+    <button onclick="calcular()">=</button>
+    <button onclick="agregar('+')">+</button>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
